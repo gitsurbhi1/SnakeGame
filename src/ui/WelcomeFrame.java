@@ -18,7 +18,7 @@ public class WelcomeFrame extends JFrame{
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        panel = new BackgroundPanel("C:\\Users\\godar\\OneDrive\\Desktop\\SmartSnakeGame\\src\\resources\\download (3).jpg");
+        panel = new BackgroundPanel("C:\\Users\\godar\\OneDrive\\Desktop\\SnakeGame\\src\\resources\\download (3).jpg");
         panel.setLayout(new GridBagLayout());
         add(panel);
 
