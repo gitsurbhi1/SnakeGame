@@ -7,9 +7,9 @@ import java.sql.*;
 import java.util.*;
 
 public class DatabaseManager {
-    final String url = "jdbc:mysql://localhost:3306/snake_game_db";
-    final String username = "root";
-    final String password = "Surbhi@123";
+    final String url = "jdbc:mysql://localhost:3306/YOUR_DATABASE_NAME";
+    final String username = "YOUR_USER_NAME";
+    final String password = "YOUR_PASSWORD";
     public Connection getConnection(){
         try {
             return DriverManager.getConnection(url,username,password);
