@@ -30,7 +30,7 @@ public class AnalyticsFrame extends JFrame {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        bg = new BackgroundPanel("C:\\Users\\godar\\OneDrive\\Desktop\\SmartSnakeGame\\src\\resources\\download (3).jpg");
+        bg = new BackgroundPanel("C:\\Users\\godar\\OneDrive\\Desktop\\SnakeGame\\src\\resources\\download (3).jpg");
         bg.setLayout(new BorderLayout());
         setContentPane(bg);
 
