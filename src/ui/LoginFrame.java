@@ -20,7 +20,7 @@ public class LoginFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        BackgroundPanel bg = new BackgroundPanel("C:\\Users\\godar\\OneDrive\\Desktop\\SmartSnakeGame\\src\\resources\\download (3).jpg");
+        BackgroundPanel bg = new BackgroundPanel("C:\\Users\\godar\\OneDrive\\Desktop\\SnakeGame\\src\\resources\\download (3).jpg");
         bg.setLayout(new GridBagLayout());
         setContentPane(bg);
 
