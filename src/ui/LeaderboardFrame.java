@@ -24,7 +24,7 @@ public class LeaderboardFrame extends JFrame {
         setSize(900, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        bg = new BackgroundPanel("C:\\Users\\godar\\OneDrive\\Desktop\\SmartSnakeGame\\src\\resources\\download (3).jpg");
+        bg = new BackgroundPanel("C:\\Users\\godar\\OneDrive\\Desktop\\SnakeGame\\src\\resources\\download (3).jpg");
         bg.setLayout(new BorderLayout());
         setContentPane(bg);
 
